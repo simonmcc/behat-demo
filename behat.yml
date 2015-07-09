@@ -2,5 +2,7 @@ default:
     extensions:
         Behat\MinkExtension:
             base_url: https://oss.showhousesoftware.com
+            show_auto: true
+            show_cmd: cat %s
             goutte: ~
             selenium2: ~

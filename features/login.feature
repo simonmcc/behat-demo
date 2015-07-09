@@ -7,6 +7,7 @@ Feature: LoginScreen
     Given I am on "/"
     Then I should see "Sign In"
 
+  @javascript
   Scenario: I login with bad credentials
     Given I am on "/"
     When I fill in "email" with "bad@login"
