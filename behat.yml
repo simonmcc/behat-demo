@@ -1,0 +1,6 @@
+default:
+    extensions:
+        Behat\MinkExtension:
+            base_url: https://oss.showhousesoftware.com
+            goutte: ~
+            selenium2: ~
